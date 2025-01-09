@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Security Checker</title>
+  <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">SecurePass</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#check">Check Password</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Section -->
+  <section class="main-content" id="check">
+    <h1>Password Security Checker</h1>
+    <p>Enter your password to check its strength:</p>
+    <input type="password" id="password" placeholder="Enter Password" oninput="checkPasswordStrength()">
+    <div id="password-strength"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 SecurePass. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
