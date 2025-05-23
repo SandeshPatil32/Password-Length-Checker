@@ -1,0 +1,1 @@
+This is project of check the password strength.
