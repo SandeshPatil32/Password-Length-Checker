@@ -4,3 +4,5 @@ console.log("button clicked")
 }
 
 document.getElementById("inputbtn").addEventListener("click", click);
+
+console.log("Hello Word");
