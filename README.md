@@ -1,1 +1,1 @@
-This is project of check the password strength.
+This is a project to check the password strength and security.
